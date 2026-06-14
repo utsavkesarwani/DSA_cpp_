@@ -1,0 +1,17 @@
+// wap to check whether a number is even or not with ternary operator 
+
+#include <iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<("Enter the number");
+    cin>>n;
+    // if(n%2==0){
+    //     cout<<"even";
+    // }
+    // else{
+    //     cout<<"odd";
+    // }
+
+    n%2==0?cout<<"Even":cout<<"odd";    
+}
