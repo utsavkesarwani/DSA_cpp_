@@ -1,0 +1,32 @@
+// wap to print the smallest number in 2d array 
+
+
+#include<iostream>
+#include<climits>
+using namespace std;
+int main(){
+    
+    int m;
+    cout<<"Enter the number of rows";
+    cin>>m;
+    int n;
+    cout<<"Enter the number of columns";
+    cin>>n;
+    int arr[m][n];
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            cin>>arr[i][j];
+        }
+    }
+
+    // min
+    int min = INT_MAX;
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            if(min>arr[i][j]) min = arr[i][j];
+        
+        }
+    
+    }
+    cout<<"The smallest number is "<<min;
+}
