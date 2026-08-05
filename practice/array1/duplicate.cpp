@@ -8,7 +8,7 @@ int main(){
     cin>>n;
     int arr[n];
     cout<<"Enter elements of an array ";
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){f
         cin>>arr[i];
     }
 

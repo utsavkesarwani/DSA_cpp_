@@ -32,7 +32,7 @@ int main(){
     // first condition is 
     // both the matrics must have same dimension 
     int arr[m][n];
-    if(m==p & p==q){
+    if(m==p & n==q){
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 arr[i][j]=arr1[i][j]+arr2[i][j];

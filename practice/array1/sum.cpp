@@ -1,21 +1,44 @@
+// // wap to print the sum of the elements of an array 
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"Enter the size of array ";
+//     cin>>n;
+//     //input
+//     int arr[n];
+//     cout<<"Enter the elements of an array ";
+//     for(int i=0;i<=n-1;i++){
+//         cin>>arr[i];
+//     }
+//     int sum = 0;
+//     for(int i=0;i<=n-1;i++){
+//         sum=sum + arr[i];
+
+//     }
+//     cout<<sum;
+// }
+
+
 // wap to print the sum of the elements of an array 
 
 #include<iostream>
-using namespace std;
+using namespace std;   
 int main(){
     int n;
-    cout<<"Enter the size of array ";
+    cout<<"Enter the size of an array ";
     cin>>n;
-    //input
     int arr[n];
-    cout<<"Enter the elements of an array ";
-    for(int i=0;i<=n-1;i++){
+    cout<<"Enter the elements of an array";
+    for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    int sum = 0;
-    for(int i=0;i<=n-1;i++){
-        sum=sum + arr[i];
 
+    // sum 
+    int sum=0;
+    for(int i=0;i<n;i++){
+        sum = sum + arr[i];
     }
     cout<<sum;
 }

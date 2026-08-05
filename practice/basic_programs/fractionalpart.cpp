@@ -10,3 +10,8 @@ int main(){
     if(y<0) y=y-1;
     cout<<x-y;
 }
+
+// take float input and print the fractional part o f the real number
+
+
+
